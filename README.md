@@ -1,4 +1,4 @@
-# Color Changer App
+# Change Background Color (Flutter APP)
 
 This is a simple yet interactive Flutter application that demonstrates how to dynamically change the background color of the screen using a button. It also displays the current color name on the screen, adjusting the text color for optimal readability based on background brightness.
 

@@ -21,25 +21,9 @@ It also displays the current color name on the screen, adjusting the text color 
 
 ```bash
 git clone https://github.com/bektas-sari/change_background_color.git
-cd color_changer_app
+cd change_background_color
 flutter pub get
 flutter run
-```
-
-## Code Overview
-
-The main functionality is handled in the `StatefulWidget`:
-
-```dart
-void changeColor() {
-  final selectedColor =
-      colorList[DateTime.now().second % colorList.length];
-
-  setState(() {
-    backgroundColor = selectedColor;
-    colorName = colorMap[selectedColor] ?? 'unknown';
-  });
-}
 ```
 
 ## Folder Structure
@@ -53,12 +37,11 @@ assets/
 
 ## License
 
-This project is open source and available under the [MIT License](LICENSE).
+This project is open source and available under the MIT Lisence.
 
 ## Contact
 
 For questions or suggestions:
 
-* GitHub Issues: [Open an issue](https://github.com/your-username/color_changer_app/issues)
-* Email: [yourname@example.com](mailto:yourname@example.com)
+* Email: [bektas.sari@gmail.com](mailto:bektas.sari@gmail.com)
 
